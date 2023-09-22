@@ -1,0 +1,57 @@
+
+:root{
+    --color: white;
+}
+
+* *::before *::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 143, 227);
+    width: 1005;
+    height:auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    width: 80%;
+    margin: 5px auto 35px;
+    color:blueviolet
+}
+
+.container{
+    width: 600px;
+    min-height: 200px;
+    background-color: rgb(63, 40, 54);
+    text-align: center;
+    margin: 150px auto;
+    color: var(--color);
+    padding: 5px;
+}
+
+p{
+    width: 85%;
+    min-height: fit-content;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 2em;
+}
+#btn{
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    color: var(--color);
+    border: 0;
+    font-size: 1rem;
+    margin: 20px auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 350px;
+    }
+}
