@@ -9,26 +9,28 @@
 
 body{
     background-color: rgb(250, 143, 227);
-    width: 1005;
-    height:auto;
+    width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 h1{
     font-size: 4rem;
     width: 80%;
     margin: 5px auto 35px;
-    color:blueviolet
+    color: blueviolet;
 }
 
 .container{
-    width: 600px;
-    min-height: 200px;
+    width: 400px;
+    min-height: 90px;
     background-color: rgb(63, 40, 54);
     text-align: center;
-    margin: 150px auto;
+    margin: 100px auto;
     color: var(--color);
     padding: 5px;
+    border: 1px solid white;
 }
 
 p{
